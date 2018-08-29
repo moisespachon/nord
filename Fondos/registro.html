@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+	<link rel="stylesheet" type="text/css" href="css/mystyle.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+<div class="inicio-r">
+	<div class="form-cont">
+		<div class="form-cont-form">
+		<h1>User Register</h1>
+			<form method="post" action="formulario.php" class="form-cont-form" requerid onsubmit="return formvalidate()" name="registro">
+				<p>Username: </p>
+				<input type="text" name="username" placeholder="Username" required>
+				<p>Email: </p>
+				<input type="email" name="correo" placeholder="Email" required>
+				<p>Password: </p>
+				<input type="Password" name="pass" placeholder="Password" required>
+				<p>Confirm password: </p>
+				<input type="password" name="confipass" placeholder="Confirm Password" required>
+				<input type="submit" name="createaccount" value="Create Account">
+			</form>
+		</div>
+	</div>
+</div>
+</div>
+</body>
+</html>
